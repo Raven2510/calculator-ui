@@ -59,7 +59,7 @@ body {
 
 .keypad {
     grid-area: keypad;
-    font-size: 30px;
+    font-size: 25px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
