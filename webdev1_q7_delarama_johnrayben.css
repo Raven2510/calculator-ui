@@ -79,10 +79,9 @@ body {
 }
 
 .keys:hover {
-    border: 3px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 1px 5px rgba(10, 10, 10, 0.1);
     background: rgba(255, 255, 255, 0.3);
-    z-index: 1;
 }
 
 .keys:nth-last-child(2) i {
