@@ -30,7 +30,7 @@ body {
     box-shadow: 0 0 30px rgba(145, 224, 242, 0.15); 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10rem 15rem;
+    grid-template-rows: 10rem 18rem;
     grid-template-areas: 
     "display"
     "keypad";
@@ -62,7 +62,7 @@ body {
     font-size: 25px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 3rem);
     grid-gap: 1em;
     margin: 1em;
 }
