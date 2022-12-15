@@ -62,7 +62,7 @@ body {
     font-size: 25px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 2fr);
     grid-gap: 1em;
     margin: 1em;
 }
