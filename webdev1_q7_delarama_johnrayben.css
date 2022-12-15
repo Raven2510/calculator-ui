@@ -30,7 +30,7 @@ body {
     box-shadow: 0 0 30px rgba(145, 224, 242, 0.15); 
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10rem 3fr;
+    grid-template-rows: 10rem 15rem;
     grid-template-areas: 
     "display"
     "keypad";
