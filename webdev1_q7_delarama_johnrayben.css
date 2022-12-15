@@ -12,17 +12,17 @@ body {
     background-image: url(webdev1_q7_delarama_johnrayben.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: min(600px, 100vh);
+    width: 100vw;
     height: 100vh;
 }
 
 .container {
-    position: relative;
-    top: 10%;
-    left: 95%;
+    position: absolute;
+    top: 3%;
+    left: 35%;
     background: rgba(79, 195, 244, 0.125);
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 90%;
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.150);
     backdrop-filter: blur(5px) saturate(130%);
@@ -59,7 +59,7 @@ body {
 
 .keypad {
     grid-area: keypad;
-    font-size: 30px;
+    font-size: 25px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -81,7 +81,7 @@ body {
 }
 
 .keys:hover {
-    border: 3px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     box-shadow: 0 1px 5px rgba(10, 10, 10, 0.1);
     background: rgba(255, 255, 255, 0.3);
 }
