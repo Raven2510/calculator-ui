@@ -62,8 +62,8 @@ body {
     font-size: 25px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 3rem);
-    grid-gap: 1em;
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 1rem;
     margin: 1em;
 }
 
